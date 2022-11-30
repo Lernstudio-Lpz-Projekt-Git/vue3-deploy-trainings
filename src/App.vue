@@ -5,8 +5,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
+    <div class="logos">
+      <img alt="Vite logo" class="logo" src="@/assets/logo-vite.png" width="125" height="125" />
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <img alt="Firebase logo" class="logo" src="@/assets/logo-firebase.png" width="125" height="125" />
+  </div>
     <div class="wrapper">
       <HelloWorld msg="Vue Deployment!" />
 
@@ -24,6 +27,12 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2rem;
 }
 
 .logo {
