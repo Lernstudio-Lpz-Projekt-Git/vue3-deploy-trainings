@@ -17,6 +17,8 @@ defineProps({
       <a href="https://firebase.google.com/" target="_blank" rel="noopener">Firebase</a>.
     </h3>
   </div>
+  // div for view 
+
 </template>
 
 <style scoped>
@@ -25,6 +27,8 @@ h1 {
   font-size: 2.6rem;
   top: -10px;
 }
+
+/* Überschift fett, kursiv */
 
 h3 {
   font-size: 1.2rem;
